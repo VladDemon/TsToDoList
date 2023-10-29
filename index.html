@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>ToDoListInTs</title>
+    <script type="module" crossorigin src="/assets/index-94e11c3f.js"></script>
+    <link rel="stylesheet" href="/assets/index-708b6d02.css">
+  </head>
+  <body>
+    
+    <main>
+      <h1 class="name">MyToDoList</h1>
+      <section class="newTask">
+        <form class="newTask__form">
+          <label class="newTask__label">
+            <input type="text" name="newTask__input" class="input__task" autocomplete="off" placeholder="Add a Task" maxlength="60">
+            <button type="button" class="btn newTask__btn">+</button>
+          </label>
+        </form>
+      </section>
+      <section class="TaskList">
+        <header class="TaskList__Clear">
+          <h2>MyTaskList</h2>
+          <button type="button" class="btn clearBtn">clear</button>
+        </header>
+        <hr/>
+        <ul id="listItems">
+          <li class="item">
+              <input type="checkbox" class="checkBox" id="1" checked>
+              <label for="1">eat</label>
+              <button class="item__btn">X</button>
+          </li>
+          <li class="item">
+              <input type="checkbox" class="checkBox" id="2">
+              <label for="2">sleep</label>
+              <button class="item__btn">X</button>
+          </li>
+          <li class="item">
+              <input type="checkbox" class="checkBox" id="3">
+              <label for="3">code</label>
+              <button class="item__btn">X</button>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
